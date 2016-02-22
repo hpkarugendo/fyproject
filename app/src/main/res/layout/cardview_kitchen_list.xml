@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:id="@+id/l_kitchen_list_card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:background="@color/color_list_item"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:text="Table 1"
+                android:paddingLeft="10dp"
+                android:textSize="30dp"
+                android:id="@+id/tv_kitchen_toplist_table"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="New"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:id="@+id/tv_kitchen_toplist_progress"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/tv_kitchen_toplist_table" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
